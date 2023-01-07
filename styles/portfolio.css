@@ -87,10 +87,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px ;
+    }
 
 /* about section styles */
 .about{
-    margin-top: 130px;
     background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px ;
@@ -102,10 +104,10 @@ main{
 
 .section-title{
 
-    
+    text-align: center ;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description{
@@ -130,3 +132,31 @@ margin-bottom: 30px;
     font-size: 20px;
     color: #474747;
 }
+
+/* What i do styles */
+
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px; color: #444343;
+    border-radius: 5px ;
+    padding: 30px ;
+}
+.skill-title{
+    font-weight: 70px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-description{
+    color: #171717;
+}
+
+/*Resume Styles */
